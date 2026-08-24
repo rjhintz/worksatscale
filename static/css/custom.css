@@ -41,22 +41,11 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* About page: monospace treatment, distinct from the rest of the site */
-body.page-about {
-    font-family: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, "Liberation Mono", monospace;
-}
-
-/* Ananke's page template defaults body copy (About/Solutions/Contact) to
-   Georgia/Times via a .serif utility class, applied directly to the content
-   div - more specific than the site-wide body font rule above, so it wins
-   unless overridden here. */
-.serif {
+/* Ananke's page template defaults page titles (h1) to a serif font via an
+   .athelas utility class, and body copy to Georgia/Times via .serif -
+   overriding both here so every page uses one consistent typeface. */
+.serif, .athelas {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-
-/* About page body copy specifically should be monospace too, not just the heading */
-body.page-about .serif {
-    font-family: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
 
 /* Body links: black instead of default browser blue.
