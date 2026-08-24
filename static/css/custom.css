@@ -36,7 +36,28 @@ body.page-solutions header.bg-transparent {
     background-size: cover !important;
 }
 
-/* Diagnostic Test: This turns the About title Blue to confirm the file is loading */
-.page-about .f2 {
-    color: #00449e !important;
+/* Modern system font stack - renders natively per device (SF on Mac, Segoe UI on Windows, Roboto on Android), falls back to Arial */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Body links: black instead of default browser blue.
+   :link/:visited are included because browsers' own default link-color rule
+   uses a pseudo-class, which otherwise outranks a plain element selector. */
+main a:link, main a:visited,
+.markdown-content a:link, .markdown-content a:visited,
+article a:link, article a:visited {
+    color: #000;
+}
+main a:hover,
+.markdown-content a:hover,
+article a:hover {
+    color: #333;
+}
+
+/* Header/nav links: explicitly white (theme already uses white-90 by default; this is a safety net) */
+header a:link, header a:visited,
+nav a:link, nav a:visited,
+footer a:link, footer a:visited {
+    color: #fff;
 }
