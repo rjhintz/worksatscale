@@ -61,3 +61,21 @@ nav a:link, nav a:visited,
 footer a:link, footer a:visited {
     color: #fff;
 }
+
+/* Homepage hero: subtle bottom-weighted gradient for text legibility,
+   instead of a flat dark overlay or no overlay at all */
+.is-home header > div.bg-transparent {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.55) 100%);
+}
+
+/* Homepage hero headline: the theme's default (5rem on desktop) is oversized
+   for a multi-word tagline. Scaled down to a more balanced size. */
+.is-home header h1 {
+    font-size: 2.25rem;
+    line-height: 1.3;
+}
+@media screen and (min-width: 60em) {
+    .is-home header h1 {
+        font-size: 3rem;
+    }
+}
