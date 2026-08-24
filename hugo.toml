@@ -1,0 +1,51 @@
+baseURL = 'https://www.worksatscale.com/'
+languageCode = 'en-us'
+title = 'Works@Scale'
+theme = 'ananke'
+
+[params]
+  # This tells Ananke to load your custom CSS file from assets/css/custom.css
+  custom_css = ["css/custom.css"]
+  description = "Facilitating Better Technology Outcomes"
+  # Configuration for social links (if needed)
+  # ananke_socials = []
+
+[markup]
+  [markup.highlight]
+    # This enables the light-mode GitHub theme we discussed for code blocks
+    lineNos = false
+    style = "github"
+    noClasses = true
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    name = "Solutions"
+    url = "/solutions/"
+    weight = 20
+  [[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 30
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
+
+# Optional: Explicitly mount assets to ensure Hugo looks in the right place
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "content"
+    target = "content"

@@ -1,0 +1,50 @@
+{{ define "main" }}
+  <style>
+    /* 1. Hide the white redundant title/description on the image */
+    .tc-l.ph3.ph4-ns { display: none !important; }
+    header.white-70 { background: transparent !important; padding-bottom: 0 !important; }
+    .cover { min-height: 400px; }
+
+    /* 2. New List Styling */
+    .notes-list { list-style: none; padding: 0; }
+    .note-item { 
+        border-bottom: 1px solid #eee; 
+        padding: 0.5rem 0; 
+        display: flex; 
+        align-items: baseline;
+    }
+    .note-date { 
+        font-family: monospace; 
+        color: #777; 
+        width: 120px; 
+        flex-shrink: 0; 
+    }
+    .note-title a { 
+        font-weight: bold; 
+        color: #111; 
+        text-decoration: none; 
+    }
+    .note-title a:hover { color: #00449e; text-decoration: underline; }
+  </style>
+
+  <article class="cf pa3 pa4-ns">
+    <section class="mw8 center ph3">
+      
+      <header class="mt2 mb3"> <h1 class="f1 b black mb2">Notes</h1>
+  <p class="f4 mid-gray lh-copy">{{ .Description }}</p>
+</header>
+
+      <ul class="notes-list">
+        {{ range .Paginator.Pages }}
+          <li class="note-item">
+            <span class="note-date">{{ .Date.Format "2006-01-02" }}</span>
+            <span class="note-title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </span>
+          </li>
+        {{ end }}
+      </ul>
+
+    </section>
+  </article>
+{{ end }}

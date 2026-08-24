@@ -1,0 +1,42 @@
+/* Hide the default theme header only on the Notes section */
+.type-notes .pv4.pv6-l, 
+.type-notes .tc-l.ph3.ph4-ns,
+.type-notes header.white-70 {
+    display: none !important;
+}
+
+/* Ensure the main content starts immediately below the nav */
+.type-notes main {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* Custom Inline Code Styling - April 2026 */
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.85em;      
+  background-color: #f6f8fa; 
+  padding: 0.2em 0.4em;   
+  border-radius: 3px;     
+  color: #c7254e;         
+  word-break: break-word;
+}
+
+/* Target the About Page Header - Shift to TOP */
+/* This will show the ceiling/top portion of the Tate weather image */
+body.page-about header.bg-transparent {
+    background-position: center top !important;
+    background-size: cover !important;
+}
+
+/* Target the Solutions Page Header - Shift to BOTTOM */
+/* This will show the lower portion of the header image */
+body.page-solutions header.bg-transparent {
+    background-position: center bottom !important;
+    background-size: cover !important;
+}
+
+/* Diagnostic Test: This turns the About title Blue to confirm the file is loading */
+.page-about .f2 {
+    color: #00449e !important;
+}

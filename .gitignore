@@ -1,0 +1,5 @@
+# Hugo build artifacts - rebuilt automatically by GitHub Actions
+/public/
+/resources/_gen/
+.hugo_build.lock
+.DS_Store
