@@ -71,3 +71,21 @@ in the workflow. Site will be at `http://localhost:1313`.
 - **Domain registration + email**: Namecheap
 - **DNS**: managed at Namecheap, pointing web traffic to GitHub Pages
 - **SSL**: auto-issued and renewed by GitHub Pages, no manual cert management
+
+## Renewal dates to watch
+
+- **Domain registration (Namecheap)**: renews Sep 6, 2027. This is the one
+  recurring cost tied to this site — everything else (hosting, SSL) is free.
+  If the domain lapses, DNS and email both go down with it, so don't let
+  this one slide.
+- **Old cPanel hosting plan**: expired/expiring Sep 15, 2026, auto-renew
+  off. No action needed — it's already superseded by GitHub Pages and can be
+  left to lapse on its own.
+
+## Provenance
+
+Much of the initial setup (git/GitHub migration, GitHub Actions deploy
+workflow, CSS fixes, image edits) was implemented by Claude (Anthropic)
+working directly in this repo under Richard Hintz's direction, rather than
+written by hand. Noted here since multiple AI tools may touch this repo over
+time — useful to know which changes came from where.
