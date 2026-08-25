@@ -39,7 +39,7 @@ draft = false
 +++
 ```
 
-This block is called **front matter**, and the format inside it is called **TOML** (rhymes with "small") — a simple way of writing `key = value` settings. Hugo reads this block to know things about the page that aren't part of the visible content itself: what to call it, when it was written, and whether it should be shown to visitors yet. The `+++` lines mark the start and end of this block; everything below the second `+++` is the actual note content, written in plain Markdown.
+This block is called **front matter**, and the format inside it is called **TOML** (pronounced "TOM-uhl," like "camel" with a T) — a simple way of writing `key = value` settings. Hugo reads this block to know things about the page that aren't part of the visible content itself: what to call it, when it was written, and whether it should be shown to visitors yet. The `+++` lines mark the start and end of this block; everything below the second `+++` is the actual note content, written in plain Markdown.
 
 Here's what each field does:
 
