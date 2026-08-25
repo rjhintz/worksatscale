@@ -1,16 +1,3 @@
-/* Hide the default theme header only on the Notes section */
-.type-notes .pv4.pv6-l, 
-.type-notes .tc-l.ph3.ph4-ns,
-.type-notes header.white-70 {
-    display: none !important;
-}
-
-/* Ensure the main content starts immediately below the nav */
-.type-notes main {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-}
-
 /* Custom Inline Code Styling - April 2026 */
 code {
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
@@ -86,3 +73,13 @@ footer a:link, footer a:visited {
         font-size: 3rem;
     }
 }
+/* Site-wide type scale reduced 20% (body copy 20px -> 16px), all headings and
+   text scaled proportionally so the existing size hierarchy is preserved. */
+.f1, .f1-l { font-size: 2.4rem; }
+.f2 { font-size: 1.8rem; }
+.f3, .f3-l { font-size: 1.2rem; }
+.f4, .f4-ns { font-size: 1rem; }
+.f5, .f5-l { font-size: 0.8rem; }
+.f6 { font-size: 0.7rem; }
+.f7 { font-size: 0.6rem; }
+.f-subheadline-l { font-size: 4rem; }
