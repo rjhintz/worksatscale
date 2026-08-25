@@ -25,7 +25,7 @@ Works@Scale's website was originally hosted on Namecheap shared hosting (cPanel)
 - Found and overrode two theme utility classes (`.serif` and `.athelas`) that the page template applies directly to body copy and page titles on every content page, forcing a serif font regardless of the site-wide font rule. A short-lived monospace treatment for the About page was tried and then reverted in favor of one consistent typeface site-wide.
 - Reduced the site-wide type scale roughly 20%, bringing body copy from 20px down to 16px, with headings scaled proportionally to preserve the existing hierarchy.
 
-**Homepage hero.** Brightened the background photo, added a subtle bottom-weighted gradient overlay for text legibility (replacing the previous flat/no overlay), and reduced an oversized headline (5rem default) to a more balanced size (2.25–3rem).
+**Homepage hero** (the large image-and-headline block at the top of the page). Brightened the background photo, added a subtle bottom-weighted gradient overlay for text legibility (replacing the previous flat/no overlay), and reduced an oversized headline (5rem default) to a more balanced size (2.25–3rem).
 
 **Contact page image.** Re-cropped to show more of the visitor crowd and less wall/ceiling, per direct feedback on the original framing.
 
