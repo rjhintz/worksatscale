@@ -1,4 +1,4 @@
-baseURL = 'https://www.worksatscale.com/'
+baseURL = 'https://worksatscale.com/'
 languageCode = 'en-us'
 title = 'Works@Scale'
 theme = 'ananke'
