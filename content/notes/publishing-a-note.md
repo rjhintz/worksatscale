@@ -61,4 +61,4 @@ Once the file exists with `draft = false` and the content is how you want it, it
 
 ### One thing to remember about the Notes section specifically
 
-The Notes section displays the same full-photo header as every other page on the site, using the image set in `content/notes/_index.md`'s front matter (`featured_image`) — this is the current, intended look.
+The Notes section displays the same style of full-photo header used on every other page of the site (not the same literal image everywhere — About, Contact, and Solutions each use a different photo). Notes currently reuses the homepage's specific image (`content/notes/_index.md`'s front matter `featured_image` matches `content/_index.md`'s), which is worth changing to one of the site's unused images at some point, rather than a deliberate design choice.
