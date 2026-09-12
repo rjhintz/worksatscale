@@ -2,6 +2,7 @@
 title = "Facilitate Innovation — Reduce Technical Debt"
 date = 2026-04-26
 draft = false
+description = "Works@Scale helps enterprises reengineer legacy software and reduce technical debt using low-risk methods, replacing monolithic systems with smaller, more maintainable ones."
 featured_image = "/images/Tate-weather-project-offset-left-reflected-ceiling.jpg"
 cover_dimming_class = "bg-transparent"
 featured_image_class = "bg-transparent"

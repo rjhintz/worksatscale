@@ -2,6 +2,7 @@
 title = 'Contact Works@Scale'
 date = 2026-04-26
 draft = false
+description = "Contact information for Works@Scale, based in Berkeley, California — enterprise software transitions, infrastructure reengineering, and technical debt reduction."
 featured_image = "/images/Tate-weather-project-floor.jpg"
 cover_dimming_class = "bg-transparent"
 featured_image_class = "bg-transparent"

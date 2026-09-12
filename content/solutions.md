@@ -2,6 +2,7 @@
 title = 'Our Solutions'
 date = 2026-04-27
 draft = false
+description = "Enterprise software transition, infrastructure reengineering, and workflow modernization — Works@Scale helps reduce technical debt and improve day-to-day responsiveness."
 bodyclasses = "solutions-header"
 featured_image = "/images/Tate-weather-project-two-level-spectators.jpg"
 cover_dimming_class = "bg-transparent"

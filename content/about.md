@@ -2,6 +2,7 @@
 date = 2026-04-27
 draft = false
 title = 'About'
+description = "Works@Scale brings years of experience managing technology transitions: from monolithic software to flexible systems, unresponsive infrastructure to economical infrastructure, and siloed culture to collaboration."
 bodyclasses = "about-header"
 featured_image = "/images/Tate-weather-project-big-sun-centered-with-ceiling.jpg"
 cover_dimming_class = "bg-transparent"
